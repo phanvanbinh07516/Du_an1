@@ -1,0 +1,152 @@
+.banner {
+    height: 600px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.restaurants {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.restaurants .title {
+    margin-bottom: 20px;
+}
+
+.restaurants .title h5 {
+    font-size: 24px;
+    color: #00B14C;
+    font-family: "Encode Sans SC", sans-serif;
+}
+
+.main-layout .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.main-layout .box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-layout .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.main-layout .box a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-layout .box p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    font-family: "Encode Sans SC", sans-serif;
+}
+
+
+
+/* Add more classes for other categories as needed */
+
+@media (max-width: 768px) {
+    .main-layout .row {
+    flex-direction: column;
+    align-items: center;
+    }
+}
+/* Đổ ảnh */
+
+/* General Styles */
+    .product-restaurants {
+        padding: 20px;
+    }
+
+    .product-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .product-card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    .thumbnail {
+        width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của khối chứa */
+        height: 300px; /* Thiết lập chiều cao cố định */
+        object-fit: cover; /* Cắt ảnh nếu cần để giữ tỷ lệ khung hình */
+        display: block; /* Đảm bảo ảnh không có khoảng trắng dưới cùng */
+    }
+
+
+    .product-info {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        color: #333;
+    }
+
+    .price {
+        font-size: 16px;
+        color: #e67e22;
+        margin: 5px 0;
+    }
+
+    .more {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .star img,
+    .time img {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    .pagination {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pagination a {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 0 5px;
+        color: #3498db;
+        text-decoration: none;
+        border: 1px solid #3498db;
+        border-radius: 5px;
+    }
+
+    .pagination a:hover {
+        background-color: #3498db;
+        color: #fff;
+    }
+    .time{
+        color: red;
+    }

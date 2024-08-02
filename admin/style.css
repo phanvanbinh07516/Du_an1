@@ -1,0 +1,131 @@
+.dashboard .table{
+    padding: 2rem;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.dashboard .table .sp{
+    color: white;
+    background-color: #4882c6;
+    padding: 5px;
+    /* height: 200px; */
+    border-radius: 10px;
+    text-align: center;
+
+}
+.dashboard .table .sp:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+    cursor: pointer;
+}
+.dashboard .table .kh{
+    background-color: #932dc2;
+}
+.dashboard .table .dm{
+    background-color: rgb(35, 83, 37);
+}
+.dashboard .table .dh{
+    background-color: rgb(170, 52, 52);
+}
+.dashboard .table .sp>p{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    /* font-family: "Encode Sans SC", sans-serif; */
+    font-family: "Bebas Neue", cursive;
+
+}
+.dashboard .table .sp span{
+    text-align: center;
+    font-size: 35px;
+    padding: 2rem 0;
+    font-family: "Bebas Neue", cursive;
+}
+.dashboard .table .sp p>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition:  all 0.3s;
+}
+.dashboard .table .sp:hover p>a{
+    font-size: 22px;
+
+}
+
+/* main .new-order{
+
+} */
+table{
+    width: 100%;
+}
+table tr{
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 15% 20% 15% 25% 15% ;
+}
+table tr.bold{
+    font-weight: bold;
+}
+table tr td{
+    padding: 10px 0;
+    border: 1px solid black;
+
+}
+
+
+
+    #wrapper {
+        padding-bottom: 5rem;
+        display: flex;
+    }
+
+    .vertical-nav {
+        width: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: #343a40;
+        padding-top: 20px;
+    }
+
+    .vertical-nav .nav-link {
+        color: #fff;
+        padding: 10px 15px;
+        text-align: left;
+    }
+
+    .vertical-nav .nav-link:hover {
+        background-color: #495057;
+    }
+
+    .container {
+        margin-left: 220px; /* Adjust based on the width of the vertical nav */
+        width: calc(100% - 220px);
+    }
+
+    .b-500 {
+        font-weight: 500;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .green {
+        color: green;
+    }
+
+    .card-header {
+        background-color: grey;
+        font-weight: 500;
+    }
+
+    .dashboard .card-body span {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .table {
+        margin-top: 20px;
+    }
